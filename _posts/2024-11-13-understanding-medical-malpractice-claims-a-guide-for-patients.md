@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Understanding Medical Malpractice Claims: A Guide for Patients
+title: Understanding Medical Malpractice Claims A Guide for Patients
 description: Learn everything you need to know about medical malpractice claims, from what constitutes malpractice to how to file a claim and the process involved.
 summary: This guide provides patients with a clear understanding of medical malpractice claims, including key terms, how to identify malpractice, and what steps to take if you need to file a claim.
 tags: Lawyer
