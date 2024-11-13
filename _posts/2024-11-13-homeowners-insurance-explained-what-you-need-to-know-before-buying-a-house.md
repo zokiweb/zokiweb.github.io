@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Homeowners Insurance Explained: What You Need to Know Before Buying a House
+title: Homeowners Insurance Explained What You Need to Know Before Buying a House
 description: Learn the essentials of homeowners insurance and why it's a must-have when purchasing a new home. This guide covers coverage options, costs, and what to consider.
 summary: Discover the importance of homeowners insurance when buying a house, including types of coverage, costs, and tips for getting the best policy.
 tags: Insurance
