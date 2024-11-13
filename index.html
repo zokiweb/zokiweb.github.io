@@ -1,0 +1,50 @@
+---
+layout: default
+---
+<section id="intro">
+    <div class="flex-row-between">
+        <h1>{{ site.greetings }}</h1>
+        <button title="Change theme" id="theme-toggle" onclick="modeSwitcher()">
+            <div></div>
+        </button>
+    </div>
+    <div class="bio">
+Welcome to Pottoin.com, your trusted resource for comprehensive information and insights across a variety of essential categories, including Insurance, Online Education, Online Banking, Marketing & Advertising, Internet, Legal matters, and Automobile Dealerships. Our mission is to empower individuals and businesses with the knowledge they need to make informed decisions in an increasingly complex world. Whether you're looking to navigate the intricacies of insurance policies, seeking the best online educational opportunities, or exploring the latest trends in online banking, Pottoin.com is here to guide you every step of the way.
+<br> <br> 
+At Pottoin.com, we understand that each decision you make can have significant impacts on your life and financial well-being. That’s why our team of experts is dedicated to providing up-to-date information, practical tips, and actionable strategies tailored to your needs. From understanding the legal landscape to finding the right automobile dealership or optimizing your marketing efforts, we strive to be your go-to source for all things related to personal and professional growth. Join us on this journey to enhance your knowledge and achieve your goals!
+        <p>
+	    <a href="{{ site.url }}{{ site.baseurl }}/about/">> About me</a>
+        </p>
+    </div>
+
+
+</section>
+
+
+
+<div class="search-article">
+    <label for="search-input" aria-hidden="true">
+        <!-- Magnifier -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+            stroke="rgba(128,128,128,0.8)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="feather feather-search">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+    </label>
+
+    <input type="search" id="search-input" placeholder="Find some articles here" aria-label="Search">
+    <ul id="search-results"></ul>
+</div>
+
+<section class="posts" id="Blog">
+    <h2>BLOG</h2>
+    <ul>
+        {% for post in site.posts %}
+        <li>
+		<a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
+        </li>
+        {% endfor %}
+    </ul>
+</section>
