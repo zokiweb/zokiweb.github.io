@@ -3,7 +3,7 @@ layout: post
 title: The Ultimate Guide to Choosing the Right Business Insurance Policy
 description: Understand the essential types of business insurance you need to protect your company and how to choose the best policy.
 summary: This guide helps entrepreneurs and business owners navigate the complex world of business insurance, covering key policies, tips, and considerations for selecting the right coverage.
-tags: Business Insurance
+tags: Insurance
 ---
 
 ## The Ultimate Guide to Choosing the Right Business Insurance Policy
